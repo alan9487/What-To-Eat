@@ -15,6 +15,10 @@
 
 int main() {
     Restaurant restaurant("KFC");
+    Restaurant restaurant("711");
+    Restaurant restaurant("媽媽樂");
+    Restaurant restaurant("花果山");
+    Restaurant restaurant("好吃炒飯");
 
     restaurant.addFood(1, "Burger", 5.99);
     restaurant.addFood(2, "Pizza", 6.99);
